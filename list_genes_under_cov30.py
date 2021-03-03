@@ -18,6 +18,7 @@ file=args.file
 ### read in a sambamba output file
 
 f = open(file,'r')
+print(f.readline(1))
 
 
 ### identify rows with less than 100% at cov30
