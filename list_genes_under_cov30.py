@@ -2,8 +2,8 @@
 
 ### Date: 2021/03
 ### authour: Seiko Makino
-### usage: list_genes_cov30.py <sambamba_output>
-### python 3.6.10
+### usage: list_genes_cov30.py -f/--file <sambamba_output>
+### developed and tested in python 3.6.10
 
 import os
 import sys
@@ -19,7 +19,6 @@ args = parser.parse_args()
 
 filename = args.file
 verbose = args.verbosity
-
 
 ## setting pandas print option
 #pandas.set_option("display.max_rows", None, "display.max_columns", None)
