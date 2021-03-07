@@ -15,7 +15,7 @@ The script is developed and tested in python 3.6.10 environment.
 ## Usage  
 A sambamba output file with appropriate headers is required to run the script:
 ```bash
-python list_genes_under_cov30.py -v --file/-f /<NGS_run_name.sambamba_output.txt/>
+python list_genes_under_cov30.py -v --file/-f &lt;NGS_run_name.sambamba_output.txt&gt;
 ```
 
 The input file must be separated in tab delimiter.
